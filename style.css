@@ -447,6 +447,7 @@ section .title::after{
 .contact .title::after{
     content: "get in touch";
 }
+
 .contact .contact-content .column{
     width: calc(50% - 30px);
 }
@@ -542,7 +543,12 @@ section .title::after{
     color: #E94B3CFF;
     background: none;
 }
-
+.contact .contact-content .icons .fa-mobile{
+margin-left: 4px;
+}
+.contact .contact-content .icons .info .head{
+margin-left: 0px;
+}
 /* footer section styling */
 footer{
     background: #111;
